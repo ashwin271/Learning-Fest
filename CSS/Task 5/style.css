@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    font-family:roboto;
+}
+
+#main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#box{
+    margin: 30px;
+    border: 15px solid rgb(35, 32, 32);
+    background-color: rgb(88, 106, 148);
+    padding: 50px;
+    text-align: left;
+}

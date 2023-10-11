@@ -1,0 +1,22 @@
+#main{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#outer{
+    height: 300px;
+    aspect-ratio: 1/1;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner{
+    height: 100px;
+    aspect-ratio: 1/1;
+    background-color: darkgreen; 
+}

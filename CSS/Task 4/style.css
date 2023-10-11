@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+}
+
+#main{
+    font-family: roboto;
+    font-size: 30px;
+    padding: 40px;
+    border: 2px solid rgb(202, 6, 6);
+}
