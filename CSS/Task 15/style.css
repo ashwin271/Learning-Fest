@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    margin: 0%;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    font-family: roboto;
+}
+
+#main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#forms{
+    background-color: rgb(255, 240, 240);
+    height: 85%;
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#head{
+    background-color: lightblue;
+    height: 13%;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foot{
+    background-color: lightblue;
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline{
+    width:90%;
+    height:2px;
+    background-color: rgba(43, 43, 43, 0.404);
+}
+
+#content{
+    width: 100%;
+    height: 75%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#reg{
+    width: 90%;
+    height: 50%;
+    background-color: rgb(65, 61, 61);
+    color: white;
+    border: 0px;
+}
+
+.inp-set{
+    width: 97%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+.inp{
+    width: 95%;
+    height: 45%;
+    border-radius: 13px;
+    border: 0px;
+    font-size: 1.1rem;
+    background-color: rgb(189, 180, 180);
+    color: rgb(36, 35, 35);
+}
+
+::placeholder{
+    color: rgb(122, 118, 118);
+}
+

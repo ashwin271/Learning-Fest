@@ -1,0 +1,29 @@
+.box{
+    width: 14vw;
+    height: 14vh;
+    border: 2px solid rgb(150, 143, 143);
+}
+
+body{
+    margin: 0%;
+}
+
+#main{
+    margin: 8%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#row1,#row4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#row2,#row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

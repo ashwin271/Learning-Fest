@@ -1,0 +1,20 @@
+#main{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#first{
+    border: red 3px solid;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+}
+
+#second{
+    border: red 3px solid;
+    border-radius: 70px 20px;
+    padding: 30px;
+    margin: 20px;
+}
