@@ -78,7 +78,7 @@ body{
 }
 
 .inp-set{
-    width: 97%;
+    width: 95%;
     height: 15%;
     display: flex;
     flex-direction: column;
@@ -98,6 +98,7 @@ body{
     font-size: 1.1rem;
     background-color: rgba(205, 204, 194, 0.349);
     color: rgb(58, 58, 58);
+    padding: 2px 12px;
 }
 
 ::placeholder{
