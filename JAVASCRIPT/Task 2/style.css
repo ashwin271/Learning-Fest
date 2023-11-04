@@ -1,0 +1,68 @@
+body{
+    margin: 0%;
+    background-color: violet;
+}
+
+#main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements{
+    margin:20px;
+}
+
+#input{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+#sum{
+    padding: 0.6rem 1.5rem;
+}
+
+.inp-lab{
+    margin: 1%;
+}
+
+#output{
+    width: 30%;
+    height: 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.381);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 480px){
+    #input{
+        flex-direction: column;
+        width: 70%;
+    }
+    #output{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (min-width: 1000px){
+
+    #output{
+        width: 200px;
+    }
+    
+}

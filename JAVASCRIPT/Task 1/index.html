@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="die"></div>
+        <button id="roll" onclick="roll()">Roll</button>
+    </div>
+    <script>
+        function getRndInteger(min, max) {
+            return Math.floor(Math.random() * (max - min + 1) ) + min;
+        }
+        function roll() {
+            let die = document.getElementById("die");
+            let roll = getRndInteger(1, 6);
+            die.innerHTML = roll;
+        }
+    </script>
+</body>
+</html>
