@@ -15,6 +15,20 @@
             </tr>
         </table>
     </div>
-    <script src="script.js"></script>
+    <script>
+
+    fetch('./persons.json').then(function(response) {
+      return response.json();
+    }).then (function(data) {
+      for (var i = 0; i < data.length; i++) {
+        document.getElementById("table").innerHTML 
+        +="<tr><td>" + data[i].name + "</td><td>" + data[i].age + "</td></tr>";
+    }
+    })
+    .cacth(function(error) {
+      alert(error);
+    })
+
+    </script>
 </body>
 </html>
